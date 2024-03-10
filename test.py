@@ -21,7 +21,7 @@ class Calculator:
 
     def divide(self, a, b):
         if b == 0:
-            print("Error: Division by zero is not allowed.")
+            print("Error: ")
             return None
         result = a / b
         self.history.append(f"{a} / {b} = {result}")
